@@ -1,0 +1,63 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+.container{
+    background-color: khaki;
+    width: 40vw;
+    text-align: center;
+}
+
+
+.time-display{
+    background-color: black;
+    padding: 20px;
+    margin: 5% 25%;
+    color: antiquewhite;
+    align-self: center;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.alarmtime-set{
+    margin: 20px;
+    font-weight: bold;
+
+}
+
+input{
+    padding: 10px;
+    font-size: larger;
+    font-weight: bold;
+    margin: 10px;
+}
+
+button{
+    background-color: chocolate;
+    padding: 10px 40px;
+    margin: 10px;
+    font-weight: bolder;
+    border: none;
+}
+
+button:hover{
+   background: crimson; 
+   cursor: pointer;
+}
+
+button:active{
+    transform: scale(0.70);
+}
+
+@media screen and (max-width:768px){
+   .container {
+    width: 30vw;
+   }
+   body {
+   font-size: x-large;
+   }
+   
+}
